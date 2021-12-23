@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { add, pow, sub } from '@nx-example/utils';
+import { HelloWorld } from '@nx-example/components';
 
 function App() {
   return (
@@ -9,6 +11,11 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>add is: {add(1, 2)}</p>
+        <p>sub is: {sub(3, 1)}</p>
+        <p>pow is: {pow(4, 2)}</p>
+        <HelloWorld name="world" />
+
         <a
           className="App-link"
           href="https://reactjs.org"

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.58.0",
+  "pnpmVersion": "6.24.2",
+  "pnpmOptions": {
+    "strictPeerDependencies": false,
+    "pnpmStore": "global"
+  },
+  "nodeSupportedVersionRange": ">=16.0.0 <17.0.0",
+  "projectFolderMaxDepth": 2,
+  "projects": [
+    {
+      "packageName": "@rush-example/admin",
+      "projectFolder": "apps/admin"
+    },
+    {
+      "packageName": "@rush-example/storefront",
+      "projectFolder": "apps/storefront"
+    },
+    {
+      "packageName": "@rush-example/components",
+      "projectFolder": "libs/components"
+    },
+    {
+      "packageName": "@rush-example/utils",
+      "projectFolder": "libs/utils"
+    }
+  ]
+}

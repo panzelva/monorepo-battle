@@ -1,0 +1,5 @@
+{
+  "allPreferredVersions": {},
+  "allowedAlternativeVersions": {},
+  "semverPath": "/home/lukas/.volta/tools/image/packages/@microsoft/rush/lib/node_modules/@microsoft/rush/node_modules/semver/index.js"
+}

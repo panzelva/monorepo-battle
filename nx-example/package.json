@@ -11,7 +11,7 @@
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "start": "nx serve",
+    "dev": "nx run-many --target=dev --all",
     "build": "nx run-many --target=build --all --parallel"
   }
 }

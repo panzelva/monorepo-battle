@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { add, pow, sub } from '@turborepo-example/utils';
+import { HelloWorld } from '@turborepo-example/components';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +17,13 @@ function App() {
             count is: {count}
           </button>
         </p>
+
+        <p>add is: {add(1, 2)}</p>
+        <p>sub is: {sub(3, 1)}</p>
+        <p>pow is: {pow(4, 2)}</p>
+
+        <HelloWorld name="world" />
+
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>

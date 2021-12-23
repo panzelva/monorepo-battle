@@ -10,7 +10,7 @@
     "tsup": "^5.11.7"
   },
   "scripts": {
-    "build": "tsup src/index.tsx --format esm,cjs --dts --external react --minify",
-    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch"
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react --inject react-shim.ts --minify",
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --inject react-shim.ts --watch"
   }
 }

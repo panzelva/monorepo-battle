@@ -1,1 +1,1 @@
-function t(o){let{name:e}=o;return React.createElement("div",null,"hello ",e,"!")}export{t as HelloWorld};
+import o from"react";function l(r){let{name:e}=r;return o.createElement("div",null,"hello ",e,"!")}export{l as HelloWorld};

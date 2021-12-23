@@ -2,11 +2,39 @@
   "name": "turborepo-example",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "turbo": "^1.0.20"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "start": "",
-    "build": ""
+    "dev": "turbo run dev",
+    "build": "turbo run build"
+  },
+  "turbo": {
+    "baseBranch": "origin/master",
+    "pipeline": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "outputs": [
+          ".next/**",
+          "dist/**",
+          "build/**"
+        ]
+      },
+      "test": {
+        "dependsOn": [
+          "^build"
+        ],
+        "outputs": []
+      },
+      "lint": {
+        "outputs": []
+      },
+      "dev": {
+        "cache": false
+      }
+    }
   }
 }
