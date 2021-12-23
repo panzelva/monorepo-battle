@@ -15,21 +15,13 @@
         "target": "build",
         "projects": "dependencies"
       }
-    ],
-    "prepare": [
-      {
-        "target": "prepare",
-        "projects": "dependencies"
-      }
-    ],
-    "package": [
-      {
-        "target": "package",
-        "projects": "dependencies"
-      }
     ]
   },
   "affected": {
     "defaultBase": "master"
+  },
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "libs"
   }
 }

@@ -12,6 +12,6 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "nx run-many --target=dev --all",
-    "build": "nx run-many --target=build --all --parallel"
+    "build": "nx run-many --target=build --parallel --projects=admin,storefront"
   }
 }
