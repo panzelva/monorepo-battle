@@ -1,0 +1,13 @@
+{
+  "name": "@rush-example/utils",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "tsup": "^5.11.7"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --minify",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  }
+}
