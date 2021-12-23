@@ -2,7 +2,7 @@ import { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { add, pow, sub } from '@nx-example/utils';
-import { HelloWorld } from '@nx-example/components';
+import { Button, HelloWorld } from '@nx-example/components';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,6 +23,8 @@ function App() {
         <p>pow is: {pow(4, 2)}</p>
 
         <HelloWorld name="world" />
+
+        <Button />
 
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.

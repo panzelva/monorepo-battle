@@ -23,15 +23,8 @@
           "build/**"
         ]
       },
-      "test": {
-        "dependsOn": [
-          "^build"
-        ],
-        "outputs": []
-      },
-      "lint": {
-        "outputs": []
-      },
+      "lint": {},
+      "test": {},
       "dev": {
         "cache": false
       }

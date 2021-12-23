@@ -1,9 +1,2 @@
-type Props = {
-  name: string;
-};
-
-export function HelloWorld(props: Props) {
-  const { name } = props;
-
-  return <div>hello {name}!</div>;
-}
+export * from './helloWorld/helloWorld';
+export * from './button/Button';
