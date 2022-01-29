@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
-    "@angular-devkit/schematics": "^13.1.2",
+    "@angular-devkit/schematics": "^13.2.0",
     "@nrwl/cli": "latest",
     "@nrwl/devkit": "13.4.0",
     "@nrwl/jest": "13.4.0",
@@ -21,6 +21,6 @@
     "build": "nx run-many --target=build --parallel --projects=admin,storefront"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.3.1"
   }
 }
