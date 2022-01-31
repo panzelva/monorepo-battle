@@ -10,7 +10,7 @@ export function Component0001() {
         background-color: #ff0000;
       `}
     >
-      component 0001
+      Component0001
     </div>
   );
 }
