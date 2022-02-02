@@ -48,6 +48,7 @@ const config = (env, argv) => {
     devServer: {
       historyApiFallback: true,
     },
+    devtool: 'source-map',
   };
 };
 
