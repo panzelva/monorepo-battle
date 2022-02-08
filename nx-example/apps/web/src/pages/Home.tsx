@@ -1,5 +1,5 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
+import React from "react"
+import Navbar from "../components/Navbar"
 
 function Home() {
   return (
@@ -7,7 +7,7 @@ function Home() {
       <Navbar />
       <h1>Home</h1>
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home

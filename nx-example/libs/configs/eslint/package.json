@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "name": "@nx-example/eslint-config-nx-example",
+  "exports": {
+    ".": {
+      "require": "./src/base.js"
+    },
+    "./*": {
+      "require": "./src/*.js"
+    }
+  }
+}

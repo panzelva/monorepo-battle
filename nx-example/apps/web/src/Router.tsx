@@ -1,7 +1,7 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import About from './pages/About';
-import Home from './pages/Home';
+import React from "react"
+import { Route, Routes } from "react-router-dom"
+import About from "./pages/About"
+import Home from "./pages/Home"
 
 function Router() {
   return (
@@ -9,7 +9,7 @@ function Router() {
       <Route path="/" element={<Home />} />
       <Route path="about" element={<About />} />
     </Routes>
-  );
+  )
 }
 
-export default Router;
+export default Router

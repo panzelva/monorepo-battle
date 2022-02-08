@@ -1,7 +1,8 @@
-import { add, pow, sub } from '@nx-example/utils';
-import { Button, HelloWorld } from '@nx-example/components';
-import { Box } from '@nx-example/components-emotion';
-import { css } from '@emotion/react';
+import { add, pow, sub } from "@nx-example/utils"
+import { Button, HelloWorld } from "@nx-example/components"
+import { Box } from "@nx-example/components-emotion"
+import { css } from "@emotion/react"
+import { Test } from "./components/Test"
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
 
       <Box />
 
+      <Test>kek</Test>
+
       <div
         css={css`
           background-color: green;
@@ -24,7 +27,7 @@ function App() {
         `}
       />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
