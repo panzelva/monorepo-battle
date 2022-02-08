@@ -1,5 +1,15 @@
 {
   "name": "@nx-example/components",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "@types/node": "^17.0.4",
     "@types/react": "^17.0.38",
@@ -7,23 +17,11 @@
     "react": "^17.0.2",
     "tsup": "^5.11.7"
   },
+  "dependencies": {
+    "@emotion/react": "^11.7.1"
+  },
   "scripts": {
     "build": "tsup --minify",
     "dev": "tsup --watch"
-  },
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
-    },
-    "./*": {
-      "types": "./dist/*.d.ts",
-      "import": "./dist/*.mjs",
-      "require": "./dist/*.cjs"
-    }
-  },
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts"
+  }
 }

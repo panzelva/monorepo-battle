@@ -1,0 +1,6 @@
+{
+  "name": "@nx-example/configs",
+  "files": [
+    "src/**"
+  ]
+}
