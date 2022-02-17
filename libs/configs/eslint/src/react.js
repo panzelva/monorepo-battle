@@ -19,10 +19,4 @@ module.exports = {
     "react/react-in-jsx-scope": "off",
   },
   settings: { react: { version: "detect" } },
-  // parserOptions: {
-  //   // https://github.com/typescript-eslint/typescript-eslint/issues/251
-  //   project: path.resolve(__dirname, "./tsconfig.json"),
-  //   tsconfigRootDir: __dirname,
-  //   warnOnUnsupportedTypeScriptVersion: false,
-  // },
 };

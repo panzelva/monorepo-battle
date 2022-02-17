@@ -1,5 +1,5 @@
 {
-  "name": "@nx-example/web-alt",
+  "name": "@nx-example/web",
   "version": "0.1.0",
   "license": "UNLICENSED",
   "dependencies": {
