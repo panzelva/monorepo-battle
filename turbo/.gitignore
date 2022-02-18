@@ -1,5 +1,10 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+**/.turbo
+**/build
+**/dist
+**/.next
+
 # compiled output
 dist
 tmp

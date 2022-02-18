@@ -1,7 +1,0 @@
-[33m@monorepo-example/components-emotion:build: [0mcache hit, replaying output [2me3d3ea0e4df4c57c[0m
-[33m@monorepo-example/components-emotion:build: [0m
-[33m@monorepo-example/components-emotion:build: [0m> @monorepo-example/components-emotion@ build /home/lukas/development/zelvik/monorepo-example/turbo/libs/components-emotion
-[33m@monorepo-example/components-emotion:build: [0m> vite build
-[33m@monorepo-example/components-emotion:build: [0m
-[33m@monorepo-example/components-emotion:build: [0mvite v2.7.13 building for production...
-[33m@monorepo-example/components-emotion:build: [0mtransforming...
