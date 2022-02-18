@@ -21,7 +21,7 @@
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "build": "nx run-many --target=build --parallel --projects=@nx-example/admin,@nx-example/storefront",
+    "build": "nx run-many --target=build --parallel --projects=@monorepo-example/admin,@monorepo-example/storefront",
     "lint": "nx run-many --target=lint --parallel --all"
   },
   "volta": {

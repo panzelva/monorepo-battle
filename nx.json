@@ -1,6 +1,6 @@
 {
   "extends": "@nrwl/workspace/presets/npm.json",
-  "npmScope": "@nx-example",
+  "npmScope": "@monorepo-example",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/nx-cloud",

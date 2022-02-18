@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
-  "name": "@nx-example/configs-prettier",
+  "name": "@monorepo-example/configs-prettier",
   "exports": {
     "./*": {
       "require": "./src/*.js"

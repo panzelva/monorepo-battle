@@ -1,5 +1,5 @@
 {
-  "name": "@nx-example/utils",
+  "name": "@monorepo-example/utils",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",

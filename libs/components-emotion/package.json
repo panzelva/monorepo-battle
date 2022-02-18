@@ -1,5 +1,5 @@
 {
-  "name": "@nx-example/components-emotion",
+  "name": "@monorepo-example/components-emotion",
   "exports": {
     ".": {
       "types": "./dist/index.es.d.ts",

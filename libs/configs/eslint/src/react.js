@@ -1,6 +1,9 @@
 module.exports = {
   plugins: ["react-hooks"],
-  extends: ["@nx-example/eslint-config-nx-example", "plugin:react/recommended"],
+  extends: [
+    "@monorepo-example/eslint-config-nx-example",
+    "plugin:react/recommended",
+  ],
   rules: {
     "prefer-rest-params": "warn",
     "react-hooks/rules-of-hooks": "error",

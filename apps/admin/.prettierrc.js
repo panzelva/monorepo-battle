@@ -1,1 +1,1 @@
-module.exports = require("@nx-example/configs-prettier/.prettierrc")
+module.exports = require("@monorepo-example/configs-prettier/.prettierrc")

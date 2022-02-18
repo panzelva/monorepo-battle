@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-import { add, pow, sub } from '@nx-example/utils';
-import { HelloWorld } from '@nx-example/components';
+import logo from "./logo.svg";
+import "./App.css";
+import { add, pow, sub } from "@monorepo-example/utils";
+import { HelloWorld } from "@monorepo-example/components";
 
 function App() {
   return (

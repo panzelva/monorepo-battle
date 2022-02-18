@@ -1,6 +1,6 @@
-import { add, pow, sub } from "@nx-example/utils"
-import { Button, HelloWorld } from "@nx-example/components"
-import { Box } from "@nx-example/components-emotion"
+import { add, pow, sub } from "@monorepo-example/utils"
+import { Button, HelloWorld } from "@monorepo-example/components"
+import { Box } from "@monorepo-example/components-emotion"
 import { css } from "@emotion/react"
 import { Test } from "./components/Test"
 

@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
-  "name": "@nx-example/configs-tsconfig",
+  "name": "@monorepo-example/configs-tsconfig",
   "exports": {
     "./*": {
       "require": "./src/*.json"
