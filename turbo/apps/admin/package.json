@@ -1,0 +1,44 @@
+{
+  "name": "@monorepo-example/admin",
+  "version": "0.0.0",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "run-p lint:*",
+    "lint:eslint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:lslint": "ls-lint",
+    "lint:format": "prettier \"./**/*.{js,jsx,ts,tsx}\" --list-different",
+    "fix": "run-s fix:*",
+    "fix:eslint": "pnpm lint:eslint -- --fix",
+    "fix:format": "pnpm lint:format -- --write",
+    "start": "pnpm dev",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@monorepo-example/components": "workspace:^",
+    "@monorepo-example/components-emotion": "workspace:^",
+    "@monorepo-example/utils": "workspace:^",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@ls-lint/ls-lint": "^1.10.0",
+    "@monorepo-example/eslint-config-nx-example": "workspace:^",
+    "@monorepo-example/configs-prettier": "workspace:^",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "@vitejs/plugin-react": "^1.0.7",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@monorepo-example/components",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/node": "^17.0.4",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.8",
+    "react": "^17.0.2",
+    "tsup": "^5.11.7"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1"
+  },
+  "scripts": {
+    "build": "tsup --minify",
+    "dev": "tsup --watch"
+  }
+}

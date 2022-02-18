@@ -1,0 +1,9 @@
+{
+  "version": "0.0.1",
+  "name": "@monorepo-example/configs-prettier",
+  "exports": {
+    "./*": {
+      "require": "./src/*.js"
+    }
+  }
+}
